@@ -15,3 +15,22 @@ The data provided (leads dataset) are from the past with around 9000 data points
   - Numpy and pandas for Data preprocessing
   - Seaborn and Matplotlib for Data visualisation
   - Sklearn (Logistic Regression) for Modelling.
+
+
+## Results 
+We computed the sensitivity , accuracy and specificity 
+  - Accuracy: 0.77
+  - Sensitivity:0.82
+  - Specificity:0.75
+
+## Recommendations
+The top 3 variables to be focused are Lead Origin_Lead Form, Last Activity_Had a Phone conversation, Lead Source_chat.  All the three variables signify the Lead’s interest towards X education. 
+
+- Lead Origin_Lead Form:
+If the Lead Origin is Lead form which is kind of filling form, then there is more chance that lead will join the online course in X Education since leads are taking some steps towards joining the course. 
+
+- Last Activity_Had a Phone conversation:
+By tracking the leads activity, it’s found that  ‘Had a Phone conversation’ activity is the significant activity as per the final model to increase the probability of lead conversion. It’s clear that leads who had a phone conversion are joining the course mostly. Hence, X Education train the sales team such that the conversion rate will be increased after the phone conversation.  
+
+- Lead Source_chat:
+Among the various sources of lead such as search engines, chat, direct traffic, references, social medias, etc., chat gains the noticeable attention to the leads which makes them to join the online course. Hence, X education needs to concentrate on Olark chart and Live charts to get more customers to be converted into potential leads.
